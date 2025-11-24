@@ -47,8 +47,8 @@ const Navbar = () => {
             <Image
               src="/logo_x.png" // ganti dengan path icon X kamu
               alt="X Logo"
-              width={36}
-              height={36}
+              width={26}
+              height={26}
             />
           </a>
 
