@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
 
-  const contractAddress = "0x0d3b448d53cB18087666735fCD0c96663F817777";
+  const contractAddress = " - ";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
