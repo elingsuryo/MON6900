@@ -6,7 +6,8 @@ import Image from "next/image";
 
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0xc8976d31824c6133b5fd5c2906d7a1d2da624444";
+
+  const contractAddress = "0x0d3b448d53cB18087666735fCD0c96663F817777";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
@@ -21,10 +22,11 @@ export default function HeroSection() {
     >
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center space-y-6 px-4">
-        {/* Main Logo on Top */}
+
+        {/* Main Logo */}
         <div className="relative w-40 h-40 md:w-52 md:h-52 animate-fade-in-slow">
           <Image
-            src="/sonicsm.png" // pastikan file logo kamu disimpan di /public/logo.png
+            src="/sonicsm.png"
             alt="SSE6900 Logo"
             fill
             className="object-contain drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]"
@@ -44,9 +46,30 @@ export default function HeroSection() {
           The Future is Indexed.
         </p>
 
+        {/* Sub-text */}
         <p className="text-gray-400 max-w-xl">
           Reimagining the financial singularity.
         </p>
+
+        {/* Contract Address Capsule */}
+        <div
+          onClick={copyToClipboard}
+          className="cursor-pointer mt-2 px-5 py-2 border border-blue-400/40 
+                     rounded-full backdrop-blur-sm font-mono text-blue-300 text-sm
+                     transition-all duration-300
+                     hover:border-blue-300 hover:text-blue-200 
+                     hover:shadow-[0_0_15px_rgba(96,165,250,0.4)] flex items-center gap-2"
+        >
+          <Copy size={16} />
+          CA: {contractAddress}
+        </div>
+
+        {/* Copied Feedback */}
+        {copied && (
+          <div className="text-green-400 text-sm mt-1 flex items-center gap-1 animate-pulse">
+            <Check size={16} /> Copied!
+          </div>
+        )}
       </div>
     </section>
   );
