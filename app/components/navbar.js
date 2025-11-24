@@ -42,15 +42,13 @@ const Navbar = () => {
             href="https://x.com"
             target="_blank"
             rel="noopener noreferrer"
-            width={42}
-            height={42}
-            className="rounded-full"
+            className="transition transform hover:scale-110"
           >
             <Image
               src="/logo_x.png" // ganti dengan path icon X kamu
               alt="X Logo"
-              width={26}
-              height={26}
+              width={42}
+              height={42}
             />
           </a>
 
@@ -59,15 +57,13 @@ const Navbar = () => {
             href="https://t.me"
             target="_blank"
             rel="noopener noreferrer"
-            width={42}
-            height={42}
-            className="rounded-full"
+            className="transition transform hover:scale-110"
           >
             <Image
               src="/logo_tele.png" // ganti dengan path icon Telegram kamu
               alt="Telegram Logo"
-              width={26}
-              height={26}
+              width={42}
+              height={42}
             />
           </a>
         </div>
