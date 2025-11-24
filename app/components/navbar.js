@@ -21,6 +21,7 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
+
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <Image
@@ -35,7 +36,38 @@ const Navbar = () => {
           </span>
         </div>
 
-        {/* Nav Links */}
+        {/* Right Section (X & Telegram) */}
+        <div className="flex items-center space-x-4">
+          {/* Logo X */}
+          <a
+            href="https://x.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition transform hover:scale-110"
+          >
+            <Image
+              src="/x-logo.png" // ganti dengan path icon X kamu
+              alt="X Logo"
+              width={26}
+              height={26}
+            />
+          </a>
+
+          {/* Logo Telegram */}
+          <a
+            href="https://t.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition transform hover:scale-110"
+          >
+            <Image
+              src="/telegram-logo.png" // ganti dengan path icon Telegram kamu
+              alt="Telegram Logo"
+              width={26}
+              height={26}
+            />
+          </a>
+        </div>
       </div>
     </nav>
   );
