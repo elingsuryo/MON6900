@@ -42,7 +42,9 @@ const Navbar = () => {
             href="https://x.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition transform hover:scale-110"
+            width={42}
+            height={42}
+            className="rounded-full"
           >
             <Image
               src="/logo_x.png" // ganti dengan path icon X kamu
@@ -57,7 +59,9 @@ const Navbar = () => {
             href="https://t.me"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition transform hover:scale-110"
+            width={42}
+            height={42}
+            className="rounded-full"
           >
             <Image
               src="/logo_tele.png" // ganti dengan path icon Telegram kamu
