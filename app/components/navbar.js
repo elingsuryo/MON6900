@@ -21,7 +21,6 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
-
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <Image
