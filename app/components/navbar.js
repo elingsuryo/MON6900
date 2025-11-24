@@ -47,8 +47,8 @@ const Navbar = () => {
             <Image
               src="/logo_x.png" // ganti dengan path icon X kamu
               alt="X Logo"
-              width={42}
-              height={42}
+              width={36}
+              height={36}
             />
           </a>
 
@@ -62,8 +62,8 @@ const Navbar = () => {
             <Image
               src="/logo_tele.png" // ganti dengan path icon Telegram kamu
               alt="Telegram Logo"
-              width={42}
-              height={42}
+              width={36}
+              height={36}
             />
           </a>
         </div>
