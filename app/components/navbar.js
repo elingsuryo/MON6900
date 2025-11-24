@@ -62,8 +62,8 @@ const Navbar = () => {
             <Image
               src="/logo_tele.png" // ganti dengan path icon Telegram kamu
               alt="Telegram Logo"
-              width={36}
-              height={36}
+              width={42}
+              height={42}
             />
           </a>
         </div>
