@@ -45,7 +45,7 @@ const Navbar = () => {
             className="transition transform hover:scale-110"
           >
             <Image
-              src="/x-logo.png" // ganti dengan path icon X kamu
+              src="/logo_x.png" // ganti dengan path icon X kamu
               alt="X Logo"
               width={26}
               height={26}
@@ -60,7 +60,7 @@ const Navbar = () => {
             className="transition transform hover:scale-110"
           >
             <Image
-              src="/telegram-logo.png" // ganti dengan path icon Telegram kamu
+              src="/logo_tele.png" // ganti dengan path icon Telegram kamu
               alt="Telegram Logo"
               width={26}
               height={26}
