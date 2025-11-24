@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           {/* Logo X */}
           <a
-            href="https://x.com"
+            href="https://x.com/mon_6900"
             target="_blank"
             rel="noopener noreferrer"
             className="transition transform hover:scale-110"
@@ -54,7 +54,7 @@ const Navbar = () => {
 
           {/* Logo Telegram */}
           <a
-            href="https://t.me"
+            href="https://t.me/mon6900official"
             target="_blank"
             rel="noopener noreferrer"
             className="transition transform hover:scale-110"
